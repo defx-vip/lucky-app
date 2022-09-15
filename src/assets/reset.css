@@ -1,0 +1,78 @@
+html{font-size: calc(100/375*100vw)}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, table, th, td, button, a { padding: 0; margin: 0; list-style: none; text-indent: 0px; -webkit-overflow-scrolling: touch;font-family: Magistral-Medium;font-size: .15rem;line-height:normal}
+h1, h2, h3, h4, h5, h6, th { font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after, button:before, button:after, input:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+table { border-collapse: collapse; border-spacing: 0; }
+ol, ul { list-style: none; }
+cite, em { font-style: normal; }
+img, button { border: 0px none; -webkit-tap-highlight-color: transparent; -webkit-appearance: none;outline:none;}
+a { text-decoration: none; cursor: pointer; background: 0;-webkit-tap-highlight-color:transparent;color: unset;display: block;font-size: initial;}
+button, object { cursor: pointer; background: none; vertical-align: middle; overflow: visible; }
+object { cursor: default; }
+input, button, select, textarea { outline: none; vertical-align: middle;border: 0;background: 0;color: #000000;}
+textarea { resize: none; }
+body{font-family: "Magistral-Medium", Arial, Helvetica, sans-serif;line-height: normal;background: #fff;overflow-y: scroll;}
+i{ font-style: normal}
+b{font-weight: normal}
+section{overflow-x: hidden;width: 100%;overflow-y: auto;}
+header {
+	height: 0.6rem;
+	background: #110020;
+	display: flex;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+}
+	
+header img {
+	width: 0.1233rem;
+	position: absolute;
+	left: 0.22rem;
+}
+	
+header p {
+	color: #ffffff;
+	font-size: .2rem;
+	text-transform: uppercase;
+}
+@font-face{
+    font-family: "Magistral-Bold";
+    src : url('../../static/font/Magistral-Bold.ttf');
+}
+@font-face{
+    font-family: "Magistral-BoldItalic";
+    src : url('../../static/font/Magistral-BoldItalic.ttf');
+}
+@font-face{
+    font-family: "Magistral-Book";
+    src : url('../../static/font/Magistral-Book.ttf');
+}
+@font-face{
+    font-family: "Magistral-BookItalic";
+    src : url('../../static/font/Magistral-BookItalic.ttf');
+}
+@font-face{
+    font-family: "Magistral-ExtraBold";
+    src : url('../../static/font/Magistral-ExtraBold.ttf');
+}
+@font-face{
+    font-family: "Magistral-ExtraBoldItalic";
+    src : url('../../static/font/Magistral-ExtraBoldItalic.ttf');
+}
+@font-face{
+    font-family: "Magistral-Light";
+    src : url('../../static/font/Magistral-Light.ttf');
+}
+@font-face{
+    font-family: "Magistral-LightItalic";
+    src : url('../../static/font/Magistral-LightItalic.ttf');
+}
+@font-face{
+    font-family: "Magistral-Medium";
+    src : url('../../static/font/Magistral-Medium.ttf');
+}
+@font-face{
+    font-family: "Magistral-MediumItalic";
+    src : url('../../static/font/Magistral-MediumItalic.ttf');
+}
